@@ -20,7 +20,7 @@ class UserController extends Controller
 
     public function loginAction(loginRequest $request) {
         if ($request->username) {
-
+            return 1111;
         }
     }
 
